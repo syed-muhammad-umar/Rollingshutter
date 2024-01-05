@@ -437,7 +437,7 @@ h5 {
 /* =============== contact us =============== */
 
 .contact{
-    background-image:linear-gradient( rgba(61, 34, 34, 0.885), rgba(61, 34, 34, 0.905)), url(/images/gettyimages-1293404184-612x612.jpg);
+    background-image:linear-gradient( rgba(61, 34, 34, 0.885), rgba(61, 34, 34, 0.905)), url(images/gettyimages-1293404184-612x612.jpg);
     padding-bottom: 5rem;
     padding-top: 5rem;
     background-position: center;
@@ -477,7 +477,7 @@ h5 {
 .footer{
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-image: url(/images/footerimg.jpg);
+    background-image: url(images/footerimg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
