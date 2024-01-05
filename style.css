@@ -184,7 +184,7 @@ h5 {
 
 /* =============== HERO =============== */
 .hero{
-    background-image: url(images/slide-h14.png);
+    background-image: url(slide-h14.png);
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.557)), url(images/gettyimages-1293404184-612x612.jpg); */
     /* height: 100vh; */
     background-repeat: no-repeat;
