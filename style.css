@@ -873,7 +873,7 @@ h5 {
         /* .cli{
             grid-template-columns: repeat(auto-fit, minmax(160px, 160px));
         } */
-        .box,.right,.bottom-right, .bottom{
+        .box,.right,.bottom-right, .bottom {
             height: 60px;
             padding: 1rem;
         }
@@ -934,3 +934,4 @@ h5 {
             padding-bottom: 5rem;
         }
     }
+}
