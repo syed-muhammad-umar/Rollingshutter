@@ -14,8 +14,17 @@
     <!--====================  Boxicons, import the css====================-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     
+    
 </head>
 <body> 
+    
+    <!-- <div class="video-container hide" id="video">
+        <div class="close" style="cursor: pointer">close</div>
+        <video loop muted autoplay>
+            <source src="/images/shuttervideo.mp4" type="video/mp4">
+        </video>
+    </div> -->
+    
     <section class="topbar">
         <div class="container topbar_container">
             <div class="left">
@@ -76,12 +85,76 @@
         <div class="container hero_container">
             <div class="left_hero"> <h1>Elevate Security <br> With  Premiuem <br> <q>Shutters</q></h1></div>
             <div class="right_hero">
-                <div class="play">
-                    <i class='bx bx-play'></i>
-                </div>    
+                
+                <div class="modals">
+                    <div class="btn play" onclick="a()">
+                        <span onclick="a()"  class="btn"><i class='bx bx-play'onclick="a()" ></i></span>
+                    </div> 
+                </div>   
+                
+                
             </div>
         </div>
     </section>
+    
+    
+    <!-- MODAL -->
+    
+    <section id="pa2" style="display: none;"  class="section modal hide" style="padding-top: 12%;padding-bottom: 12%; height: 100% !important;">
+        <div class="container modal_container">
+            <div class="closes" onclick="a()">x</div>
+            <video muted loop autoplay >
+                <source src="/images/shuttervideo.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    
+    
+    <script>
+    function a(){
+        var element = document.getElementById("pa2");
+        element.classList.toggle("shows");
+    }
+    
+
+        
+        /*
+        var btn = document.querySelector('.btn');
+        var closes = document.querySelector('.closes');
+        
+        
+        // let videocontainer = document.querySelector('.video-container')
+        // btn.onclick = function(){
+        //     videocontainer.classList.add('shows')
+        // }
+        
+        var modals = document.querySelector('.modal');
+        btn.onclick = function(){
+            modals.classList.add('shows');
+        }
+        
+        closes.onclick = function(){
+            modal.classlist.remove('shows');
+        }
+        */
+    </script>
+    <!-- <script>
+        
+        // to show
+        let btn = document.querySelector('.btn');
+        
+        let videocontainer = document.querySelector('.video-container')
+        btn.onclick = function(){
+            videocontainer.classList.add('shows')
+        }
+        
+        // to close
+        let close = document.querySelector('#video');
+        close.onclick = function(){
+            videocontainer.classList.add('hide')
+        }
+        
+    </script> -->
     
     <section class="section about" id="about">
         <div class="container about_container">
@@ -498,6 +571,8 @@
                 </div>
             </section>
         </footer>
+        
+        
         
         
     </body>

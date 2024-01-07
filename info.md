@@ -167,3 +167,16 @@ gallery (Works showcase)
 logo (Shareef And Sons)
 
 color theme
+https://youtu.be/nAjR0Oj0J8E?si=ccEdQZog_jpgotdN slidder
+
+https://youtu.be/OGb2Hkeu2BI?si=5qvw974o4cdIuRBz
+
+https://youtu.be/OGb2Hkeu2BI?si=5qvw974o4cdIuRBz modal
+
+1- modal
+2- logo slider
+3- animations
+4- whstapp logo bottom
+5- onloading gifs
+
+
