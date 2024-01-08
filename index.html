@@ -18,6 +18,13 @@
 </head>
 <body> 
     
+    
+    <!-- preloader  -->
+    
+    <div class="preloader" id="preloader">
+        <div class="counter" id="counter">0</div>
+    </div>
+    
     <!-- <div class="video-container hide" id="video">
         <div class="close" style="cursor: pointer">close</div>
         <video loop muted autoplay>
@@ -111,12 +118,12 @@
     
     
     <script>
-    function a(){
-        var element = document.getElementById("pa2");
-        element.classList.toggle("shows");
-    }
-    
-
+        function a(){
+            var element = document.getElementById("pa2");
+            element.classList.toggle("shows");
+        }
+        
+        
         
         /*
         var btn = document.querySelector('.btn');
@@ -125,456 +132,484 @@
         
         // let videocontainer = document.querySelector('.video-container')
         // btn.onclick = function(){
-        //     videocontainer.classList.add('shows')
-        // }
-        
-        var modals = document.querySelector('.modal');
-        btn.onclick = function(){
-            modals.classList.add('shows');
-        }
-        
-        closes.onclick = function(){
-            modal.classlist.remove('shows');
-        }
-        */
-    </script>
-    <!-- <script>
-        
-        // to show
-        let btn = document.querySelector('.btn');
-        
-        let videocontainer = document.querySelector('.video-container')
-        btn.onclick = function(){
-            videocontainer.classList.add('shows')
-        }
-        
-        // to close
-        let close = document.querySelector('#video');
-        close.onclick = function(){
-            videocontainer.classList.add('hide')
-        }
-        
-    </script> -->
-    
-    <section class="section about" id="about">
-        <div class="container about_container">
-            <h3>About us</h3>
-            <h2>Who We Are</h2>
-            <p>Late Mr AbdurRehman  founder of (SSRS),
-                Was started as a small trading company with  manual roller Shutter and iron steel Products since 1948 from Karachi.  Now with years of experience in 
-                the Shutter Industry, along with iron steel Products,  Formerly (Shareef Sons), we are the pioneer in manufacturing roller shutter. Now (SSRS) has grown larger
-                and his son Mr Babu Mohammad Shareef is a leading director and spread the business over the years to all over the country in Pakistan . Our highly  skilled and 
-                qualified team guarentees the finest and foremost safety shutter solutions to your utmost needs. We specialise in manufacturing different range of high quality products 
-                including Automatic Roller Shutters, Gates & Iron Steel Products. We manufacture durable and affordable roller shutters at affordable quotes. Late Mr AbdurRehman  founder of (SSRS),
-                Was started as a small trading company with  manual roller Shutter and iron steel Products since 1948 from Karachi.  Now with years of experience in 
-                the Shutter Industry, along with iron steel Products,  Formerly (Shareef Sons), we are the pioneer in manufacturing roller shutter. Now (SSRS) has grown larger
-                and his son Mr Babu Mohammad Shareef is a leading director and spread the business over the years to all over the country in Pakistan . Our highly  skilled and 
-                qualified team guarentees the finest and foremost safety shutter solutions to your utmost needs. We specialise in manufacturing different range of high quality products 
-                including Automatic Roller Shutters, Gates & Iron Steel Products. We manufacture durable and affordable roller shutters at affordable quotes. </p>
-                
-                
-            </div>
-        </section> 
-        
-        
-        
-        
-        <section class="materiallist section" id="material">
-            <div class="container materiallist_container">
-                <h3>Material list</h3>
-                <h2>What We Manufacture</h2>
-                <div class="material_product_card">
-                    <div class="card">
-                        <div><img src="images/aluminium roller shutter.webp" alt=""></div>
-                        <h3><i class='bx bx-chevrons-right'></i>aluminium roller shutter</h3>
-                    </div>
-                    <div class="card">
-                        <div><img src="images/ac800kg-industrial-garage-roller-shutter07301893080.webp" alt=""></div>
-                        <h3><i class='bx bx-chevrons-right'></i>Roller Shutter Moter</h3>
-                    </div>
-                    <div class="card">
-                        <div> <img src="images/barbed wire.webp" alt=""></div>
-                        <h3><i class='bx bx-chevrons-right'></i>Barbed Wire</h3>
-                    </div>
-                    <div class="card">
-                        <div><img src="images/closeup-wire-fence-aginst-white-background-copy-space.webp" alt=""></div>
-                        <h3><i class='bx bx-chevrons-right'></i>Wire Gate</h3>
-                    </div>
-                    <div class="card">
-                        <div><img src="images/coollapselble gate.webp" alt=""></div>
-                        <h3><i class='bx bx-chevrons-right'></i>Collapseable Gate</h3>
-                    </div>
-                    <div class="card">
-                        <div><img src="images/depositphotos_27254531-stock-photo-metal-gate.webp" alt=""></div>
-                        <h3><i class='bx bx-chevrons-right'></i>Galvanised Shutter</h3>
-                    </div>
-                    <div class="card">
-                        <div><img src="images/fr shade.jpg" alt=""></div>
-                        <h3><i class='bx bx-chevrons-right'></i>Fr Shade</h3>
-                    </div>
-                    <div class="card">
-                        <div><img src="images/gi chokhat.jpg" alt=""></div>
-                        <h3><i class='bx bx-chevrons-right'></i>Gi chokhat</h3>
-                    </div>
-                    <div class="card">
-                        <div><img src="images/grey-metal-sheet-shutter-door_44651-39.webp" alt=""></div>
-                        <h3><i class='bx bx-chevrons-right'></i>Metal Shet Shutter</h3>
-                    </div>
-                    <div class="card">
-                        <div><img src="images/grill rolling shutter.webp" alt=""></div>
-                        <h3><i class='bx bx-chevrons-right'></i>Grill Rolling Shutter</h3>
-                    </div>
-                    <div class="card">
-                        <div><img src="images/metal mesh.webp" alt=""></div>
-                        <h3><i class='bx bx-chevrons-right'></i>Metal Mesh</h3>
-                    </div>
-                    <div class="card">
-                        <div><img src="images/motorize rooller shuter.webp" alt=""></div>
-                        <h3><i class='bx bx-chevrons-right'></i>Motorize Roller Shutter</h3>
-                    </div>
-                    <div class="card">
-                        <div><img src="images/nylon safety net.webp" alt=""></div>
-                        <h3><i class='bx bx-chevrons-right'></i>Nylon Safety Net</h3>
-                    </div>
-                    <div class="card">
-                        <div><img src="images/perforated rooller shutte.webp" alt=""></div>
-                        <h3><i class='bx bx-chevrons-right'></i>Perforated Roller Shutter</h3>
-                    </div>
-                    <div class="card">
-                        <div><img src="images/polycarbonate-rolling-shutter-250x250.webp" alt=""></div>
-                        <h3><i class='bx bx-chevrons-right'></i>PolyCarbonate Rolling Shutter</h3>
-                    </div>
-                    <div class="card">
-                        <div><img src="images/ppgi roller shutter.webp" alt=""></div>
-                        <h3><i class='bx bx-chevrons-right'></i>PPgi Rolling Shutter</h3>
-                    </div>
-                    <div class="card">
-                        <div><img src="images/razor wire.webp" alt=""></div>
-                        <h3><i class='bx bx-chevrons-right'></i>Razor Wire</h3>
-                    </div>
-                    <div class="card">
-                        <div><img src="images/stainless steel rolling shutter.webp" alt=""></div>
-                        <h3><i class='bx bx-chevrons-right'></i>Stainless Steel Rolling Shutter</h3>
-                    </div>
-                </div>
-                
-                
-                
-                
-                
-            </div>
-        </section>
-        
-        <section class="section  clients" id="clients">
-            <div class="container clients_container">
-                <h3>Our clients</h3>
-                <h2>Our Clients</h2>
-                
-                <div class="cli">
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Abdullah builders (Hyderabad)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>AlFarooq Industries</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Al Haram Estate (Shahrah-e-Faisal)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>AlJannat Group</small>
-                    </div>
-                    <div class="right">
-                        <small><i class='bx bxl-foursquare'></i>Art Tech Interiors </small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Atrium Mall</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Aashiyana Shopping Mall (Clifton)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Abdul Majeed Associates </small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Adnan Medical Store (Korangi #6)</small>
-                    </div>
-                    <div class="right">
-                        <small><i class='bx bxl-foursquare'></i>Askari Park</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i> Amin Residency (Khalid Bin Waleed Rd) </small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Amma Tower (M.A Jinnah Rd)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Al Karam Square</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Alfarooq Iron (Bahria)</small>
-                    </div>
-                    <div class="right">
-                        <small><i class='bx bxl-foursquare'></i>Aquafina/PEPSI (Pakistan Beverages)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>BURQUE Pak Pvt Ltd</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Banks</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>City Towers Safora (Zain Builders and Developers)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Comfort Shoes </small>
-                    </div>
-                    <div class="right">
-                        <small><i class='bx bxl-foursquare'></i>Creek View Apartment Nueplex</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Central plaza near Gul Plaza</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Cool Point</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>COD (Central Ordinance Depot)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Dolman Mall (Tariq Rd)</small>
-                    </div>
-                    <div class="right">
-                        <small><i class='bx bxl-foursquare'></i>Dawn news</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>DHL Airport </small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Dhoraji Pride</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Dawood Regency </small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Euro Golf</small>
-                    </div>
-                    <div class="right">
-                        <small><i class='bx bxl-foursquare'></i>Expo Centre</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Erum Shopping Emporium (North) </small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Euro Gold Jewellers (Saddar)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Galaxy Pak Pvt Ltd</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Gaziani Shopping Mall & Builders</small>
-                    </div>
-                    <div class="right">
-                        <small><i class='bx bxl-foursquare'></i>Gul Plaza (M.A Jinnah Road)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Grey builders and developers </small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Happy Plastic (Sharfabad)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Haroon Shopping Mall (North Nazimabad)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Hashmani Builders (7Star Builders)</small>
-                    </div>
-                    <div class="right">
-                        <small><i class='bx bxl-foursquare'></i>International Shopping Mall (Saddar)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Imtiaz Super Market</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Jafferani Iron</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Kauser Medicos </small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>KBC Restaurant </small>
-                    </div>
-                    <div class="right">
-                        <small><i class='bx bxl-foursquare'></i>Kathiawar Traders (New Sabzi Mandi)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>LUCKY ONE MALL</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Lakhani Marbal (Pak Colony)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Memon Estate (DHA)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Masroor Airbase</small>
-                    </div>
-                    <div class="right">
-                        <small><i class='bx bxl-foursquare'></i>Metro Group (Liaquat Builders)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Metro Jewellers (Saddar)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Number One Collection</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Nehari Inn Restaurant</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>National Hospital (Kaala Pull)</small>
-                    </div>
-                    <div class="right">
-                        <small><i class='bx bxl-foursquare'></i>Need Super Market (Gulshan)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Parking Plaza</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Pink builders</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>PAF (Shahrah-e-Faisal)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Pipri Godown (National Highway)</small>
-                    </div>
-                    <div class="right">
-                        <small><i class='bx bxl-foursquare'></i>Peshawari Ice Cream</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Popular Marbal & Builders (Pak Colony)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>P&G Group of Company</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Roll Point (Nanak Wada)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Rawani's Design Emporium</small>
-                    </div>
-                    <div class="right">
-                        <small><i class='bx bxl-foursquare'></i>Shaheen Airline</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Shan-e-Mughliya</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Summair Builders (Summaira Heights)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>Summya Comforts & Builders (Tariq Rd)</small>
-                    </div>
-                    <div class="box">
-                        <small><i class='bx bxl-foursquare'></i>SPAR Pakistan Pvt Ltd (bahadurabad)</small>
-                    </div>
-                    <div class="right">
-                        <small><i class='bx bxl-foursquare'></i>awwakal Shopping Centre</small>
-                    </div>
-                    <div class="bottom">
-                        <small><i class='bx bxl-foursquare'></i>Taaloo Builders /Omega builders </small>
-                    </div>
-                    <div class="bottom">
-                        <small><i class='bx bxl-foursquare'></i>Taiba Jewellers (Tariq Rd)</small>
-                    </div>
-                    <div class="bottom">
-                        <small><i class='bx bxl-foursquare'></i>Top Engineering Construction Co.</small>
-                    </div>
-                    <div class="bottom">
-                        <small><i class='bx bxl-foursquare'></i>Zulekha Builders</small>
-                    </div>
-                    <div class="bottom">
-                        <small><i class='bx bxl-foursquare'></i>Zeenat Lawn Grou</small>
-                    </div> 
-                </div>
-            </div>
-        </section>
-        
-        
-        <section class="contact section">
-            <div class="container contact_container">
-                <h2>
-                    Contact to expertise in the manufacturing <br> industry
-                </h2>
-                <!-- <div class="statements">
-                    <div class="mission">
-                        <h2>Our Mission</h2>
-                        <p>To build long-term relationships with our customers and clients and to provide as high customer services as possible by pursuing business through innovation and  passion.</p>
-                    </div>
-                    <div class="vision">
-                        <h2>Our Vision</h2>
-                        <p>is to assist our customers with top-quality services that exceeds the expectations of our esteemed  customers.</p>
-                    </div>
-                </div> -->
-            </div>
-        </section>
-        
-        <footer class="footer section">
-            <div class="container footer_container">
-                <div class="first">
-                    <div class="nav_logo">
-                        <h1>Shareef  Sons  </h1> <br> <h5>Rolling Shutter</h5>
-                    </div>
-                    
-                    <small>We believe in treating our customers with respect and in faith. We grow through creativity, invention and innovation. We combine openness, integrity </small>
-                    <div class="right f_right">
-                        <span><a href="https://www.facebook.com/shareefsteel?mibextid=2JQ9oc"><i class='bx bxl-facebook'></i></a></span>
-                        <span><a href="https://instagram.com/shareefsteel?igshid=MTlobzJsM3lkYXh3dQ"><i class='bx bxl-instagram'></i></a></span>
-                        <span><a href="https://whatsapp.com/channel/0029Va9Mm6a1yT21DHmOt30n"><i class='bx bxl-whatsapp'></i></a></span>
-                        <span><i class='bx bxl-tiktok'></i></span>
-                    </div>
-                </div>
-                <div class="second">
-                    <h3 class="footer_title">CONTACT INFO</h3>
-                    <ul>
-                        <li> <i class='bx bx-location-plus'></i><div> <p>Unit 1: Risala Police Line, Opp. <br> Imli Compound Bhimpura Karachi.</p> </div></li>
-                        <li><i class='bx bx-phone-call'></i><small>0322-2609904 <br> 0321-3060062 <br> 0334-3230703</small></li>
-                        <li><i class='bx bx-envelope'></i><a href="mailto:shareefsteel1@gmail.com"><small>shareefsteel1@gmail</small></a></li>
-                    </ul>
-                    
-                </div>
-                <div class="third">
-                    <h3 class="footer_title_3">OUR SERVICES</h3>
-                    <ul>
-                        <li><i class='bx bx-chevron-right'></i> Home</li>
-                        <li><i class='bx bx-chevron-right'></i>About</li>
-                        <li><i class='bx bx-chevron-right'></i>Our clients</li>
-                        <li><i class='bx bx-chevron-right'></i>Gallery</li>
-                        <li><i class='bx bx-chevron-right'></i>Contact us</li>
-                        <li><i class='bx bx-chevron-right'></i>Material list</li>
-                    </ul>
-                    
-                </div>
-                <div class="four">
-                    <h3 class="footer_title_4">OUR LOCATION</h3>
-                    <div>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.0564398489696!2d67.00377216206384!3d24.861921873239307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e1c1c67b0d9%3A0x3dd02ecaafdabfa7!2sRisala%20Police%20Line%20Rd%20%26%20Street%201%2C%20Bhimpura%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1704432725756!5m2!1sen!2s" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    
-                </div>
-            </div>
+            //     videocontainer.classList.add('shows')
+            // }
+            
+            var modals = document.querySelector('.modal');
+            btn.onclick = function(){
+                modals.classList.add('shows');
+            }
+            
+            closes.onclick = function(){
+                modal.classlist.remove('shows');
+            }
+            */
             
             
-            <section class="bottom section">
-                <div class="container">
-                    <p>© 2024 Shareef Sons. <br> Designed By <a href="https://syed-muhammad-umar.github.io/portfoliosmu/index.html"> Syed Muhammad Umar.</a></p>
+            
+            
+            // preloader script
+            function counter(){
+                let count = setInterval(function(){
+                    var c = document.getElementById('counter');
+                    int = parseInt(c.textContent);
+                    c.textContent =(++int).toString();
+
+                    if(int == 100){
+                        clearInterval(count);
+                        c.classList.add('.hides');
+                        const pre = document.getElementById("preloader");
+                        pre.classList.add('hides');
+                        document.getElementById("preloader")
+                    }
+                },40)
+            }
+            
+
+            counter()
+            
+            
+            
+            
+            
+        </script>
+        <!-- <script>
+            
+            // to show
+            let btn = document.querySelector('.btn');
+            
+            let videocontainer = document.querySelector('.video-container')
+            btn.onclick = function(){
+                videocontainer.classList.add('shows')
+            }
+            
+            // to close
+            let close = document.querySelector('#video');
+            close.onclick = function(){
+                videocontainer.classList.add('hide')
+            }
+            
+        </script> -->
+        
+        <section class="section about" id="about">
+            <div class="container about_container">
+                <h3>About us</h3>
+                <h2>Who We Are</h2>
+                <p>Late Mr AbdurRehman  founder of (SSRS),
+                    Was started as a small trading company with  manual roller Shutter and iron steel Products since 1948 from Karachi.  Now with years of experience in 
+                    the Shutter Industry, along with iron steel Products,  Formerly (Shareef Sons), we are the pioneer in manufacturing roller shutter. Now (SSRS) has grown larger
+                    and his son Mr Babu Mohammad Shareef is a leading director and spread the business over the years to all over the country in Pakistan . Our highly  skilled and 
+                    qualified team guarentees the finest and foremost safety shutter solutions to your utmost needs. We specialise in manufacturing different range of high quality products 
+                    including Automatic Roller Shutters, Gates & Iron Steel Products. We manufacture durable and affordable roller shutters at affordable quotes. Late Mr AbdurRehman  founder of (SSRS),
+                    Was started as a small trading company with  manual roller Shutter and iron steel Products since 1948 from Karachi.  Now with years of experience in 
+                    the Shutter Industry, along with iron steel Products,  Formerly (Shareef Sons), we are the pioneer in manufacturing roller shutter. Now (SSRS) has grown larger
+                    and his son Mr Babu Mohammad Shareef is a leading director and spread the business over the years to all over the country in Pakistan . Our highly  skilled and 
+                    qualified team guarentees the finest and foremost safety shutter solutions to your utmost needs. We specialise in manufacturing different range of high quality products 
+                    including Automatic Roller Shutters, Gates & Iron Steel Products. We manufacture durable and affordable roller shutters at affordable quotes. </p>
+                    
+                    
+                </div>
+            </section> 
+            
+            
+            
+            
+            <section class="materiallist section" id="material">
+                <div class="container materiallist_container">
+                    <h3>Material list</h3>
+                    <h2>What We Manufacture</h2>
+                    <div class="material_product_card">
+                        <div class="card">
+                            <div><img src="images/aluminium roller shutter.webp" alt=""></div>
+                            <h3><i class='bx bx-chevrons-right'></i>aluminium roller shutter</h3>
+                        </div>
+                        <div class="card">
+                            <div><img src="images/ac800kg-industrial-garage-roller-shutter07301893080.webp" alt=""></div>
+                            <h3><i class='bx bx-chevrons-right'></i>Roller Shutter Moter</h3>
+                        </div>
+                        <div class="card">
+                            <div> <img src="images/barbed wire.webp" alt=""></div>
+                            <h3><i class='bx bx-chevrons-right'></i>Barbed Wire</h3>
+                        </div>
+                        <div class="card">
+                            <div><img src="images/closeup-wire-fence-aginst-white-background-copy-space.webp" alt=""></div>
+                            <h3><i class='bx bx-chevrons-right'></i>Wire Gate</h3>
+                        </div>
+                        <div class="card">
+                            <div><img src="images/coollapselble gate.webp" alt=""></div>
+                            <h3><i class='bx bx-chevrons-right'></i>Collapseable Gate</h3>
+                        </div>
+                        <div class="card">
+                            <div><img src="images/depositphotos_27254531-stock-photo-metal-gate.webp" alt=""></div>
+                            <h3><i class='bx bx-chevrons-right'></i>Galvanised Shutter</h3>
+                        </div>
+                        <div class="card">
+                            <div><img src="images/fr shade.jpg" alt=""></div>
+                            <h3><i class='bx bx-chevrons-right'></i>Fr Shade</h3>
+                        </div>
+                        <div class="card">
+                            <div><img src="images/gi chokhat.jpg" alt=""></div>
+                            <h3><i class='bx bx-chevrons-right'></i>Gi chokhat</h3>
+                        </div>
+                        <div class="card">
+                            <div><img src="images/grey-metal-sheet-shutter-door_44651-39.webp" alt=""></div>
+                            <h3><i class='bx bx-chevrons-right'></i>Metal Shet Shutter</h3>
+                        </div>
+                        <div class="card">
+                            <div><img src="images/grill rolling shutter.webp" alt=""></div>
+                            <h3><i class='bx bx-chevrons-right'></i>Grill Rolling Shutter</h3>
+                        </div>
+                        <div class="card">
+                            <div><img src="images/metal mesh.webp" alt=""></div>
+                            <h3><i class='bx bx-chevrons-right'></i>Metal Mesh</h3>
+                        </div>
+                        <div class="card">
+                            <div><img src="images/motorize rooller shuter.webp" alt=""></div>
+                            <h3><i class='bx bx-chevrons-right'></i>Motorize Roller Shutter</h3>
+                        </div>
+                        <div class="card">
+                            <div><img src="images/nylon safety net.webp" alt=""></div>
+                            <h3><i class='bx bx-chevrons-right'></i>Nylon Safety Net</h3>
+                        </div>
+                        <div class="card">
+                            <div><img src="images/perforated rooller shutte.webp" alt=""></div>
+                            <h3><i class='bx bx-chevrons-right'></i>Perforated Roller Shutter</h3>
+                        </div>
+                        <div class="card">
+                            <div><img src="images/polycarbonate-rolling-shutter-250x250.webp" alt=""></div>
+                            <h3><i class='bx bx-chevrons-right'></i>PolyCarbonate Rolling Shutter</h3>
+                        </div>
+                        <div class="card">
+                            <div><img src="images/ppgi roller shutter.webp" alt=""></div>
+                            <h3><i class='bx bx-chevrons-right'></i>PPgi Rolling Shutter</h3>
+                        </div>
+                        <div class="card">
+                            <div><img src="images/razor wire.webp" alt=""></div>
+                            <h3><i class='bx bx-chevrons-right'></i>Razor Wire</h3>
+                        </div>
+                        <div class="card">
+                            <div><img src="images/stainless steel rolling shutter.webp" alt=""></div>
+                            <h3><i class='bx bx-chevrons-right'></i>Stainless Steel Rolling Shutter</h3>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
                 </div>
             </section>
-        </footer>
+            
+            <section class="section  clients" id="clients">
+                <div class="container clients_container">
+                    <h3>Our clients</h3>
+                    <h2>Our Clients</h2>
+                    
+                    <div class="cli">
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Abdullah builders (Hyderabad)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>AlFarooq Industries</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Al Haram Estate (Shahrah-e-Faisal)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>AlJannat Group</small>
+                        </div>
+                        <div class="right">
+                            <small><i class='bx bxl-foursquare'></i>Art Tech Interiors </small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Atrium Mall</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Aashiyana Shopping Mall (Clifton)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Abdul Majeed Associates </small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Adnan Medical Store (Korangi #6)</small>
+                        </div>
+                        <div class="right">
+                            <small><i class='bx bxl-foursquare'></i>Askari Park</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i> Amin Residency (Khalid Bin Waleed Rd) </small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Amma Tower (M.A Jinnah Rd)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Al Karam Square</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Alfarooq Iron (Bahria)</small>
+                        </div>
+                        <div class="right">
+                            <small><i class='bx bxl-foursquare'></i>Aquafina/PEPSI (Pakistan Beverages)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>BURQUE Pak Pvt Ltd</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Banks</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>City Towers Safora (Zain Builders and Developers)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Comfort Shoes </small>
+                        </div>
+                        <div class="right">
+                            <small><i class='bx bxl-foursquare'></i>Creek View Apartment Nueplex</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Central plaza near Gul Plaza</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Cool Point</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>COD (Central Ordinance Depot)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Dolman Mall (Tariq Rd)</small>
+                        </div>
+                        <div class="right">
+                            <small><i class='bx bxl-foursquare'></i>Dawn news</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>DHL Airport </small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Dhoraji Pride</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Dawood Regency </small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Euro Golf</small>
+                        </div>
+                        <div class="right">
+                            <small><i class='bx bxl-foursquare'></i>Expo Centre</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Erum Shopping Emporium (North) </small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Euro Gold Jewellers (Saddar)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Galaxy Pak Pvt Ltd</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Gaziani Shopping Mall & Builders</small>
+                        </div>
+                        <div class="right">
+                            <small><i class='bx bxl-foursquare'></i>Gul Plaza (M.A Jinnah Road)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Grey builders and developers </small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Happy Plastic (Sharfabad)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Haroon Shopping Mall (North Nazimabad)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Hashmani Builders (7Star Builders)</small>
+                        </div>
+                        <div class="right">
+                            <small><i class='bx bxl-foursquare'></i>International Shopping Mall (Saddar)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Imtiaz Super Market</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Jafferani Iron</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Kauser Medicos </small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>KBC Restaurant </small>
+                        </div>
+                        <div class="right">
+                            <small><i class='bx bxl-foursquare'></i>Kathiawar Traders (New Sabzi Mandi)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>LUCKY ONE MALL</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Lakhani Marbal (Pak Colony)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Memon Estate (DHA)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Masroor Airbase</small>
+                        </div>
+                        <div class="right">
+                            <small><i class='bx bxl-foursquare'></i>Metro Group (Liaquat Builders)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Metro Jewellers (Saddar)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Number One Collection</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Nehari Inn Restaurant</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>National Hospital (Kaala Pull)</small>
+                        </div>
+                        <div class="right">
+                            <small><i class='bx bxl-foursquare'></i>Need Super Market (Gulshan)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Parking Plaza</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Pink builders</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>PAF (Shahrah-e-Faisal)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Pipri Godown (National Highway)</small>
+                        </div>
+                        <div class="right">
+                            <small><i class='bx bxl-foursquare'></i>Peshawari Ice Cream</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Popular Marbal & Builders (Pak Colony)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>P&G Group of Company</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Roll Point (Nanak Wada)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Rawani's Design Emporium</small>
+                        </div>
+                        <div class="right">
+                            <small><i class='bx bxl-foursquare'></i>Shaheen Airline</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Shan-e-Mughliya</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Summair Builders (Summaira Heights)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>Summya Comforts & Builders (Tariq Rd)</small>
+                        </div>
+                        <div class="box">
+                            <small><i class='bx bxl-foursquare'></i>SPAR Pakistan Pvt Ltd (bahadurabad)</small>
+                        </div>
+                        <div class="right">
+                            <small><i class='bx bxl-foursquare'></i>awwakal Shopping Centre</small>
+                        </div>
+                        <div class="bottom">
+                            <small><i class='bx bxl-foursquare'></i>Taaloo Builders /Omega builders </small>
+                        </div>
+                        <div class="bottom">
+                            <small><i class='bx bxl-foursquare'></i>Taiba Jewellers (Tariq Rd)</small>
+                        </div>
+                        <div class="bottom">
+                            <small><i class='bx bxl-foursquare'></i>Top Engineering Construction Co.</small>
+                        </div>
+                        <div class="bottom">
+                            <small><i class='bx bxl-foursquare'></i>Zulekha Builders</small>
+                        </div>
+                        <div class="bottom">
+                            <small><i class='bx bxl-foursquare'></i>Zeenat Lawn Grou</small>
+                        </div> 
+                    </div>
+                </div>
+            </section>
+            
+            
+            <section class="contact section">
+                <div class="container contact_container">
+                    <h2>
+                        Contact to expertise in the manufacturing <br> industry
+                    </h2>
+                    <!-- <div class="statements">
+                        <div class="mission">
+                            <h2>Our Mission</h2>
+                            <p>To build long-term relationships with our customers and clients and to provide as high customer services as possible by pursuing business through innovation and  passion.</p>
+                        </div>
+                        <div class="vision">
+                            <h2>Our Vision</h2>
+                            <p>is to assist our customers with top-quality services that exceeds the expectations of our esteemed  customers.</p>
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+            
+            <footer class="footer section">
+                <div class="container footer_container">
+                    <div class="first">
+                        <div class="nav_logo">
+                            <h1>Shareef  Sons  </h1> <br> <h5>Rolling Shutter</h5>
+                        </div>
+                        
+                        <small>We believe in treating our customers with respect and in faith. We grow through creativity, invention and innovation. We combine openness, integrity </small>
+                        <div class="right f_right">
+                            <span><a href="https://www.facebook.com/shareefsteel?mibextid=2JQ9oc"><i class='bx bxl-facebook'></i></a></span>
+                            <span><a href="https://instagram.com/shareefsteel?igshid=MTlobzJsM3lkYXh3dQ"><i class='bx bxl-instagram'></i></a></span>
+                            <span><a href="https://whatsapp.com/channel/0029Va9Mm6a1yT21DHmOt30n"><i class='bx bxl-whatsapp'></i></a></span>
+                            <span><i class='bx bxl-tiktok'></i></span>
+                        </div>
+                    </div>
+                    <div class="second">
+                        <h3 class="footer_title">CONTACT INFO</h3>
+                        <ul>
+                            <li> <i class='bx bx-location-plus'></i><div> <p>Unit 1: Risala Police Line, Opp. <br> Imli Compound Bhimpura Karachi.</p> </div></li>
+                            <li><i class='bx bx-phone-call'></i><small>0322-2609904 <br> 0321-3060062 <br> 0334-3230703</small></li>
+                            <li><i class='bx bx-envelope'></i><a href="mailto:shareefsteel1@gmail.com"><small>shareefsteel1@gmail</small></a></li>
+                        </ul>
+                        
+                    </div>
+                    <div class="third">
+                        <h3 class="footer_title_3">OUR SERVICES</h3>
+                        <ul>
+                            <li><i class='bx bx-chevron-right'></i> Home</li>
+                            <li><i class='bx bx-chevron-right'></i>About</li>
+                            <li><i class='bx bx-chevron-right'></i>Our clients</li>
+                            <li><i class='bx bx-chevron-right'></i>Gallery</li>
+                            <li><i class='bx bx-chevron-right'></i>Contact us</li>
+                            <li><i class='bx bx-chevron-right'></i>Material list</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="four">
+                        <h3 class="footer_title_4">OUR LOCATION</h3>
+                        <div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.0564398489696!2d67.00377216206384!3d24.861921873239307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e1c1c67b0d9%3A0x3dd02ecaafdabfa7!2sRisala%20Police%20Line%20Rd%20%26%20Street%201%2C%20Bhimpura%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1704432725756!5m2!1sen!2s" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                <section class="bottom section">
+                    <div class="container">
+                        <p>© 2024 Shareef Sons. <br> Designed By <a href="https://syed-muhammad-umar.github.io/portfoliosmu/index.html"> Syed Muhammad Umar.</a></p>
+                    </div>
+                </section>
+            </footer>
+            
+            
+            
+            
+        </body>
+        </html>
         
-        
-        
-        
-    </body>
-    </html>
-    
